@@ -1,22 +1,20 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [{
-        "name": "start todo appi",
-        "type": "coreclr",
-        "request": "launch",
-    
-    
-       
-        "preLaunchTask": "build",
-        "program": "${workspaceFolder}/src/todo/bin/Debug/net9.0/todo.dll",
-        "args": [],
-        "cwd": "${workspaceFolder}/src/todo/",
-        "console": "internalConsole",
-        "stopAtEntry": false,
-        "internalConsoleOptions": "openOnSessionStart"
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "start todo appi",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/bin/Debug/net9.0/TodoApi.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/",
+      "console": "internalConsole",
+      "stopAtEntry": false,
+      "internalConsoleOptions": "openOnSessionStart"
     }
-    ]
+  ]
 }
