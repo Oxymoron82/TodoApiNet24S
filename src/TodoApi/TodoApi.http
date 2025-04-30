@@ -4,3 +4,35 @@ GET {{TodoApi_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
+
+### Получить все задачи
+GET {{TodoApi_HostAddress}}/api/todoitems
+Accept: application/json
+
+###
+
+### Добавить новую задачу
+POST {{TodoApi_HostAddress}}/api/todoitems
+Content-Type: application/json
+
+{
+  "name": "Почитать книгу",
+  "isComplete": false
+}
+
+###
+
+### Обновить задачу (например, с id = 1)
+PUT {{TodoApi_HostAddress}}/api/todoitems/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "Почитать книгу и сделать заметки",
+  "isComplete": true
+}
+
+###
+
+### Удалить задачу (например, с id = 1)
+DELETE {{TodoApi_HostAddress}}/api/todoitems/1

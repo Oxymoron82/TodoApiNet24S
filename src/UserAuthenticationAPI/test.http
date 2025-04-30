@@ -1,0 +1,17 @@
+POST http://localhost:5246/api/auth/register
+Content-Type: application/json
+
+{
+  "username": "USERNAME",
+  "password": "101010"
+}
+
+POST http://localhost:5246/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "USERNAME",
+  "password": "101010"
+}
+
+GET http://localhost:5246/api/auth/status
