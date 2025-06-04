@@ -3,15 +3,13 @@
 GET {{TodoApi_HostAddress}}/weatherforecast/
 Accept: application/json
 
-###
 
-### Получить все задачи
+
+
 GET {{TodoApi_HostAddress}}/api/todoitems
 Accept: application/json
 
-###
 
-### Добавить новую задачу
 POST {{TodoApi_HostAddress}}/api/todoitems
 Content-Type: application/json
 
